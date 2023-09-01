@@ -1,0 +1,76 @@
+Week 1
+cs- Change Directory
+ls- List Files/ directory
+pwd- Present directory/file
+cs .. - go back 1 directory
+mkdir- make directory
+vi = view/create file
+git clone - clone a directory
+clear - clear everthing
+README.md - help ppl understand ur code?
+do not commit generated files (what you dont make)?? 
+put data into yml file;
+
+
+Week 2; August 30th 
+
+NOTES: https://safinsingh.github.io/demystifying-git/
+
+Directory =  Folder
+Nested folder/ sub folder - refered to folders inside folders
+Root directory - main directory; where all folders and files are stored.
+Shell-Prompt: 
+Bash: Unix Shell and command language ----->  Snytax: <program> [arugments...]
+Git: Version control system; allows devolper to track different thier versions (has a lot more features)
+git init: 
+code .: opens your code in vscode
+commit button: 
+staged a change: means to save a the new version
+git commit: puts a name of version (when you enetr a name in the space) of your code and stores it
+How to see
+README: a file that has a description of what your post is.
+
+Week 2
+August 31
+
+
+
+
+
+
+
+
+
+
+
+
+Token Password: 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
+Github Username: SoniDhenuva
+Github Password: S0n12oo9
+
+HOW TO USE CODE BLOCK STUFF EXAMPLE
+----------------------------------
+
+(3 hashtag marks) Pseudo code IF Code Block
+```
+a ← 1
+b ← 1
+
+IF (a = b) {
+   DISPLAY("A equals B")
+}
+```
+
+
+```python
+(1 hashtage mark) Python code if block to match Pseudo Code
+a = 1
+b = 1
+if (a == b):
+    # Python uses indent to establish code block, Teacher use tab key
+    print("A equals B")
+```
+
+    A equals B
+
+---------------------
