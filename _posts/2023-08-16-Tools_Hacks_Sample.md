@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Hacks
+title: Hacks W0
 description: These are the hacks and commands I learned in Week 0
 courses: { compsci: {week: 0} }
 type: hacks
