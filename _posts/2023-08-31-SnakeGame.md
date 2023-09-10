@@ -86,7 +86,7 @@ courses: { compsci: {week: 2} }
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p><span style="background-color:; color: #87a6ed">Welcome to Snake, press space to begin</span></p>
+            <p><span style="background-color:; color: #87a6ed">Welcome to Snake, press space to begin </span></p>
             <a id="new_game" class="link-alert">new game</a>
             <a id="setting_menu" class="link-alert">settings</a>
         </div>
@@ -314,22 +314,23 @@ courses: { compsci: {week: 2} }
         }
         /* Key Inputs and Actions */
         /////////////////////////////////////////////////////////////
+    
         let changeDir = function(key){
             // test key and switch direction
             switch(key) {
-                case 37:    // left arrow
+                case 65:    // A arrow
                     if (snake_dir !== 1)    // not right
                         snake_next_dir = 3; // then switch left
                     break;
-                case 38:    // up arrow
+                case 87:    // W arrow
                     if (snake_dir !== 2)    // not down
                         snake_next_dir = 0; // then switch up
                     break;
-                case 39:    // right arrow
+                case 68:    // D arrow
                     if (snake_dir !== 3)    // not left
                         snake_next_dir = 1; // then switch right
                     break;
-                case 40:    // down arrow
+                case 83:    // S arrow
                     if (snake_dir !== 0)    // not up
                         snake_next_dir = 2; // then switch down
                     break;
@@ -338,8 +339,24 @@ courses: { compsci: {week: 2} }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "darksalmon";
-            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+
+            
+
+            //const appleSize = BLOCK;
+            //const appleX = x * BLOCK;
+            //const appleY = y * BLOCK;
+            //ctx.font = `${appleSize}px sans-serif`;
+            //ctx.fillText(":apple:", appleX, appleY + appleSize);
+
+            ctx.fillStyle = "#FFFFFF";
+            ctx.beginPath();
+            ctx.arc(x * BLOCK + BLOCK / 2, y * BLOCK + BLOCK / 2, BLOCK / 2, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            //ctx.fillStyle = "darksalmon";
+            //ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+
+        
         }
         /* Random food placement */
         /////////////////////////////////////////////////////////////
