@@ -7,3 +7,6 @@ description: These are the hacks and commands I learned in Week 4
 type: plans
 courses: { compsci: {week: 4} }
 ---
+
+## Daily Plans
+> Monday: 
