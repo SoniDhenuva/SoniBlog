@@ -1,11 +1,10 @@
 ---
-toc: true
-comments: false
 layout: post
 title: Review Ticket W6
 description: 
 type: tangibles
 courses: { compsci: {week: 6} }
+comments: true
 ---
 
 ## Summary of Accomplishments
