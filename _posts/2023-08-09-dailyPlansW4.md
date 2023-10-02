@@ -8,5 +8,5 @@ type: plans
 courses: { compsci: {week: 4} }
 ---
 
-## Daily Plans
-> Monday: 
+
+>  
