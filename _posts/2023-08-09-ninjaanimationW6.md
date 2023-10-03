@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: false
+comments: true
 layout: post
 title: Animation W4
 description: Summary of Accomplishments in Week 6
